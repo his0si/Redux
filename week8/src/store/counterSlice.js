@@ -5,10 +5,11 @@ const counterSlice = createSlice({
   initialState: { value: 0 },
   reducers: {
     increment: (state) => {
-      // TODO: state.value를 1 증가시키는 코드를 작성. (예: state.value += 1;)
+      // TODO: state.value를 1 증가시키는 코드를 작성.
     },
   },
 });
 
 export const { increment } = counterSlice.actions;
 export default counterSlice.reducer;
+

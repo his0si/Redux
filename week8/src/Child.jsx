@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { increment } from './store/counterSlice';
 
 function Child() {
-  const count = useSelector((state) => _________); // TODO: state.counter.value를 반환하여 Redux 스토어에서 count 값을 가져오기.
+  const count = useSelector((state) => _________); // TODO: Redux 스토어에서 count 값을 가져오기.
   const dispatch = useDispatch();
 
   return (
